@@ -20,7 +20,6 @@ Each task contains the following fields:
 - AI Summary
 - AI Priority 
 
-The system also exposes REST APIs for task management and includes dashboard analytics such as total tasks, completed tasks, pending tasks, and high-priority tasks. 
 
 ---
 
@@ -36,7 +35,6 @@ The system also exposes REST APIs for task management and includes dashboard ana
 - AI integration using provider-based service design (OpenAI / Gemini / Claude / mocked fallback) 
 - Chart.js for dashboard analytics, if enabled in the project brief implementation. 
 
-> Note: The task allows either Blade or Vue 3 + Inertia. This implementation uses Vue 3 + Inertia for a more modern and maintainable frontend architecture. 
 
 ---
 
@@ -104,7 +102,7 @@ DB_PASSWORD=
 
 QUEUE_CONNECTION=database
 
-GEMINI_API_KEY=AIzaSyBRJ4wocpI-PtuDiwj7pbD8ey2VZvAXZxY
+GEMINI_API_KEY=
 ```
 
 ### 6. Generate application key
