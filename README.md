@@ -429,7 +429,20 @@ The dashboard includes high-level task statistics required by the machine test:
 - Task chart visualization using Chart.js, where implemented. 
 
 ---
+## Screenshots
 
+Screenshots are included in the `screenshots/` directory.
+
+Recommended screenshots included in this submission:
+- Login page
+- Dashboard
+- Task list page
+- Create task page
+- Edit task page
+- Task detail page with AI summary
+- Admin role view
+- User role view
+- API Postman collection screenshots
 
 
 
